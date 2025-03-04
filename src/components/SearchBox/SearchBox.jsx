@@ -3,7 +3,7 @@ import { useId } from "react";
 import { changeFilter } from "../../redux/filtersSlice";
 import { useDispatch } from "react-redux";
 
-export default function SearchBox({}) {
+export default function SearchBox() {
   const filterId = useId();
   const dispatch = useDispatch();
 
